@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C303BE222858AB2C001BCA82 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C303BE212858AB2C001BCA82 /* SheetView.swift */; };
 		C303BE2528591F8A001BCA82 /* ShareLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C303BE2428591F8A001BCA82 /* ShareLinkView.swift */; };
+		C303BE27285CA9F2001BCA82 /* ImageRendererView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C303BE26285CA9F2001BCA82 /* ImageRendererView.swift */; };
 		C34BF97F285384DB00E91412 /* SwiftUI4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BF97E285384DB00E91412 /* SwiftUI4App.swift */; };
 		C34BF981285384DB00E91412 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BF980285384DB00E91412 /* ContentView.swift */; };
 		C34BF983285384DD00E91412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34BF982285384DD00E91412 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		C303BE212858AB2C001BCA82 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		C303BE2328591990001BCA82 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C303BE2428591F8A001BCA82 /* ShareLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkView.swift; sourceTree = "<group>"; };
+		C303BE26285CA9F2001BCA82 /* ImageRendererView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRendererView.swift; sourceTree = "<group>"; };
 		C34BF97B285384DB00E91412 /* SwiftUI4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34BF97E285384DB00E91412 /* SwiftUI4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4App.swift; sourceTree = "<group>"; };
 		C34BF980285384DB00E91412 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				C3A55CA7285812D000864DA4 /* ChartsView.swift */,
 				C303BE212858AB2C001BCA82 /* SheetView.swift */,
 				C303BE2428591F8A001BCA82 /* ShareLinkView.swift */,
+				C303BE26285CA9F2001BCA82 /* ImageRendererView.swift */,
 			);
 			path = SwiftUI4;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				C303BE222858AB2C001BCA82 /* SheetView.swift in Sources */,
 				C303BE2528591F8A001BCA82 /* ShareLinkView.swift in Sources */,
 				C3A55CA8285812D000864DA4 /* ChartsView.swift in Sources */,
+				C303BE27285CA9F2001BCA82 /* ImageRendererView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +438,7 @@
 				DEVELOPMENT_TEAM = MA5BADG5AW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Permission to save image";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -463,6 +468,7 @@
 				DEVELOPMENT_TEAM = MA5BADG5AW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Permission to save image";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

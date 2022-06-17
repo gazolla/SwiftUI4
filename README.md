@@ -2,20 +2,20 @@
 #SwiftUI4
 What's New In SwiftUI for iOS 16 - Xcode 14 - SwiftUI 4.0
 
-Swift Charts
-Presentation Detents(Half Sheet & Small Sheets)
-Share Link
-Image Renderer
-ViewThatFits
-Grid
-Layout
-Navigation Stack
-Navigation Split View
-Table For iPadOS
-Gauge View
-Tap Gesture With Location
-ScrollView Updates(Disable & Keyboard Dismiss)
-Multiple Date Picker, Inner & Drop Shadows
+* Swift Charts
+* Presentation Detents(Half Sheet & Small Sheets)
+* Share Link
+* Image Renderer
+* ViewThatFits
+* Grid
+* Layout
+* Navigation Stack
+* Navigation Split View
+* Table For iPadOS
+* Gauge View
+* Tap Gesture With Location
+* ScrollView Updates(Disable & Keyboard Dismiss)
+* Multiple Date Picker, Inner & Drop Shadows
 
 
 ### Contact
