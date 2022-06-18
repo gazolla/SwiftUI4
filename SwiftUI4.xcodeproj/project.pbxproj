@@ -12,6 +12,7 @@
 		C303BE27285CA9F2001BCA82 /* ImageRendererView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C303BE26285CA9F2001BCA82 /* ImageRendererView.swift */; };
 		C303BE29285D156D001BCA82 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C303BE28285D156D001BCA82 /* GridView.swift */; };
 		C303BE2B285D168C001BCA82 /* TapLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C303BE2A285D168C001BCA82 /* TapLocationView.swift */; };
+		C303BE2D285D79EC001BCA82 /* MultiDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C303BE2C285D79EC001BCA82 /* MultiDatePickerView.swift */; };
 		C34BF97F285384DB00E91412 /* SwiftUI4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BF97E285384DB00E91412 /* SwiftUI4App.swift */; };
 		C34BF981285384DB00E91412 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BF980285384DB00E91412 /* ContentView.swift */; };
 		C34BF983285384DD00E91412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34BF982285384DD00E91412 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		C303BE26285CA9F2001BCA82 /* ImageRendererView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRendererView.swift; sourceTree = "<group>"; };
 		C303BE28285D156D001BCA82 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		C303BE2A285D168C001BCA82 /* TapLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapLocationView.swift; sourceTree = "<group>"; };
+		C303BE2C285D79EC001BCA82 /* MultiDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerView.swift; sourceTree = "<group>"; };
 		C34BF97B285384DB00E91412 /* SwiftUI4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34BF97E285384DB00E91412 /* SwiftUI4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4App.swift; sourceTree = "<group>"; };
 		C34BF980285384DB00E91412 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				C34BF97E285384DB00E91412 /* SwiftUI4App.swift */,
+				C303BE2C285D79EC001BCA82 /* MultiDatePickerView.swift */,
 				C34BF980285384DB00E91412 /* ContentView.swift */,
 				C34BF982285384DD00E91412 /* Assets.xcassets */,
 				C34BF984285384DD00E91412 /* Preview Content */,
@@ -282,6 +285,7 @@
 				C34BF97F285384DB00E91412 /* SwiftUI4App.swift in Sources */,
 				C303BE222858AB2C001BCA82 /* SheetView.swift in Sources */,
 				C303BE29285D156D001BCA82 /* GridView.swift in Sources */,
+				C303BE2D285D79EC001BCA82 /* MultiDatePickerView.swift in Sources */,
 				C303BE2528591F8A001BCA82 /* ShareLinkView.swift in Sources */,
 				C3A55CA8285812D000864DA4 /* ChartsView.swift in Sources */,
 				C303BE27285CA9F2001BCA82 /* ImageRendererView.swift in Sources */,
