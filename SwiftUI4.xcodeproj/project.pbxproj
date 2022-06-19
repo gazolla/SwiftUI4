@@ -21,6 +21,8 @@
 		C34BF99A285384DD00E91412 /* SwiftUI4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BF999285384DD00E91412 /* SwiftUI4UITests.swift */; };
 		C34BF99C285384DD00E91412 /* SwiftUI4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BF99B285384DD00E91412 /* SwiftUI4UITestsLaunchTests.swift */; };
 		C3A55CA8285812D000864DA4 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A55CA7285812D000864DA4 /* ChartsView.swift */; };
+		C3E746A3285F4B8300600EDE /* SearchableScopeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E746A2285F4B8300600EDE /* SearchableScopeView.swift */; };
+		C3E746A5285F588900600EDE /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E746A4285F588900600EDE /* GaugeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		C34BF999285384DD00E91412 /* SwiftUI4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4UITests.swift; sourceTree = "<group>"; };
 		C34BF99B285384DD00E91412 /* SwiftUI4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C3A55CA7285812D000864DA4 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		C3E746A2285F4B8300600EDE /* SearchableScopeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableScopeView.swift; sourceTree = "<group>"; };
+		C3E746A4285F588900600EDE /* GaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				C303BE26285CA9F2001BCA82 /* ImageRendererView.swift */,
 				C303BE28285D156D001BCA82 /* GridView.swift */,
 				C303BE2A285D168C001BCA82 /* TapLocationView.swift */,
+				C3E746A2285F4B8300600EDE /* SearchableScopeView.swift */,
+				C3E746A4285F588900600EDE /* GaugeView.swift */,
 			);
 			path = SwiftUI4;
 			sourceTree = "<group>";
@@ -281,12 +287,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C34BF981285384DB00E91412 /* ContentView.swift in Sources */,
+				C3E746A3285F4B8300600EDE /* SearchableScopeView.swift in Sources */,
 				C303BE2B285D168C001BCA82 /* TapLocationView.swift in Sources */,
 				C34BF97F285384DB00E91412 /* SwiftUI4App.swift in Sources */,
 				C303BE222858AB2C001BCA82 /* SheetView.swift in Sources */,
 				C303BE29285D156D001BCA82 /* GridView.swift in Sources */,
 				C303BE2D285D79EC001BCA82 /* MultiDatePickerView.swift in Sources */,
 				C303BE2528591F8A001BCA82 /* ShareLinkView.swift in Sources */,
+				C3E746A5285F588900600EDE /* GaugeView.swift in Sources */,
 				C3A55CA8285812D000864DA4 /* ChartsView.swift in Sources */,
 				C303BE27285CA9F2001BCA82 /* ImageRendererView.swift in Sources */,
 			);

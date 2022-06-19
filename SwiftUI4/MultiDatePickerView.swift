@@ -19,6 +19,10 @@ struct MultiDatePickerView: View {
             MultiDatePicker("Select your dates:", selection: $dates, in: Date.now...)
                 .frame(width:300, height:350)
                 .padding()
+                .background{
+                    RoundedRectangle(cornerRadius: 10)
+                        .fill(.white.shadow(.drop(radius: 4)))
+                }
             Text(summary)
         }
     }
