@@ -20,6 +20,7 @@
 		C34BF990285384DD00E91412 /* SwiftUI4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BF98F285384DD00E91412 /* SwiftUI4Tests.swift */; };
 		C34BF99A285384DD00E91412 /* SwiftUI4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BF999285384DD00E91412 /* SwiftUI4UITests.swift */; };
 		C34BF99C285384DD00E91412 /* SwiftUI4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BF99B285384DD00E91412 /* SwiftUI4UITestsLaunchTests.swift */; };
+		C37D06BA28635CA900C103F4 /* UnderConstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37D06B928635CA900C103F4 /* UnderConstruction.swift */; };
 		C399B4B42860FF940086E121 /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C399B4B32860FF940086E121 /* LayoutView.swift */; };
 		C39CA8872861EB28000A0F79 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39CA8862861EB28000A0F79 /* TextView.swift */; };
 		C3A55CA8285812D000864DA4 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A55CA7285812D000864DA4 /* ChartsView.swift */; };
@@ -62,6 +63,7 @@
 		C34BF995285384DD00E91412 /* SwiftUI4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34BF999285384DD00E91412 /* SwiftUI4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4UITests.swift; sourceTree = "<group>"; };
 		C34BF99B285384DD00E91412 /* SwiftUI4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C37D06B928635CA900C103F4 /* UnderConstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderConstruction.swift; sourceTree = "<group>"; };
 		C399B4B32860FF940086E121 /* LayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
 		C39CA8862861EB28000A0F79 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		C3A55CA7285812D000864DA4 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				C3E746A4285F588900600EDE /* GaugeView.swift */,
 				C399B4B32860FF940086E121 /* LayoutView.swift */,
 				C39CA8862861EB28000A0F79 /* TextView.swift */,
+				C37D06B928635CA900C103F4 /* UnderConstruction.swift */,
 			);
 			path = SwiftUI4;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				C34BF97F285384DB00E91412 /* SwiftUI4App.swift in Sources */,
 				C303BE222858AB2C001BCA82 /* SheetView.swift in Sources */,
 				C303BE29285D156D001BCA82 /* GridView.swift in Sources */,
+				C37D06BA28635CA900C103F4 /* UnderConstruction.swift in Sources */,
 				C303BE2D285D79EC001BCA82 /* MultiDatePickerView.swift in Sources */,
 				C303BE2528591F8A001BCA82 /* ShareLinkView.swift in Sources */,
 				C399B4B42860FF940086E121 /* LayoutView.swift in Sources */,
