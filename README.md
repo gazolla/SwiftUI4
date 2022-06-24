@@ -3,7 +3,7 @@
 
 What's New In SwiftUI for iOS 16 - Xcode 14 - SwiftUI 4.0
 
-![screencapture](https://raw.githubusercontent.com/gazolla/SwiftUI4/master/ScreenShot.png =220x475)
+< img src="https://raw.githubusercontent.com/gazolla/SwiftUI4/master/ScreenShot.png" width="220">
 
 * Swift Charts
 * Presentation Detents(Half Sheet & Small Sheets)
