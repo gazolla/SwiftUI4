@@ -20,7 +20,8 @@ struct Content: Identifiable, Hashable{
         .init(name: "Grid"),
         .init(name: "Tap location view"),
         .init(name: "Gauge"),
-        .init(name: "MultiDatePicker")
+        .init(name: "MultiDatePicker"),
+        .init(name: "Text")
     ]
 }
 
@@ -56,6 +57,8 @@ struct MainView: View {
             return AnyView(GaugeView())
         case "MultiDatePicker":
             return AnyView(MultiDatePickerView())
+        case "Text":
+            return AnyView(TextView())
         default:
             return AnyView(UnderConstruction())
         }

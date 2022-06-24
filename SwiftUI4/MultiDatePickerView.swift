@@ -24,6 +24,7 @@ struct MultiDatePickerView: View {
                         .fill(.white.shadow(.drop(radius: 4)))
                 }
             Text(summary)
+            Spacer()
         }
     }
     
