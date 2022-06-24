@@ -11,17 +11,22 @@ import SwiftUI
 struct Content: Identifiable, Hashable{
     let id = UUID()
     let name: String
+    let img:String
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(name)
+    }
     
     static let loadedItems:[Content] = [
-        .init(name: "Chart"),
-        .init(name: "Sheet"),
-        .init(name: "Share Link"),
-        .init(name: "Image Renderer"),
-        .init(name: "Grid"),
-        .init(name: "Tap location view"),
-        .init(name: "Gauge"),
-        .init(name: "MultiDatePicker"),
-        .init(name: "Text")
+        .init(name: "Chart", img: "chart.bar.xaxis"),
+        .init(name: "Sheet", img: "doc.plaintext"),
+        .init(name: "Share Link", img: "link"),
+        .init(name: "Image Renderer", img: "photo"),
+        .init(name: "Grid", img: "rectangle.grid.2x2"),
+        .init(name: "Tap location view", img: "hand.point.up.left"),
+        .init(name: "Gauge", img: "gauge"),
+        .init(name: "MultiDatePicker", img:  "calendar"),
+        .init(name: "Text", img: "text.alignleft")
     ]
 }
 
@@ -30,7 +35,13 @@ struct MainView: View {
     var body: some View {
         NavigationStack {
             List(newFunctionalities) { functionality in
-                NavigationLink(functionality.name, value: functionality)
+                NavigationLink(value: functionality) {
+                    HStack{
+                        Image(systemName: functionality.img)
+                            .renderingMode(.original)
+                        Text(functionality.name)
+                    }
+                }
             }
             .navigationDestination(for: Content.self) { functionality in
                 selectFunctionality(name:functionality.name)
