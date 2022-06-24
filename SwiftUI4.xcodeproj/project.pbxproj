@@ -63,6 +63,7 @@
 		C34BF995285384DD00E91412 /* SwiftUI4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34BF999285384DD00E91412 /* SwiftUI4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4UITests.swift; sourceTree = "<group>"; };
 		C34BF99B285384DD00E91412 /* SwiftUI4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C35FFE962865FB1F00509F03 /* ScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ScreenShot.png; path = ../../../../../../../../../var/folders/kd/jws54dws453187hv1wtxdfv40000gn/T/ScreenShot.png; sourceTree = "<group>"; };
 		C37D06B928635CA900C103F4 /* UnderConstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderConstruction.swift; sourceTree = "<group>"; };
 		C399B4B32860FF940086E121 /* LayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
 		C39CA8862861EB28000A0F79 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
@@ -100,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				C303BE2328591990001BCA82 /* README.md */,
+				C35FFE962865FB1F00509F03 /* ScreenShot.png */,
 				C34BF97D285384DB00E91412 /* SwiftUI4 */,
 				C34BF98E285384DD00E91412 /* SwiftUI4Tests */,
 				C34BF998285384DD00E91412 /* SwiftUI4UITests */,
