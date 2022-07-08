@@ -1,7 +1,7 @@
 
 # SwiftUI4
 
-What's New In SwiftUI for iOS 16 - Xcode 14 - SwiftUI 4.0 *Work in progress....*
+What's New In SwiftUI for iOS 16 - Xcode 14 - SwiftUI 4.0 (*Work in progress....*)
 
 
 <img src="https://raw.githubusercontent.com/gazolla/SwiftUI4/master/ScreenShot.png" width="220">

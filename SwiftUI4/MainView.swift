@@ -7,10 +7,13 @@
 
 import SwiftUI
 
+enum ItemType:String {
+    case chart, sheet, shareLink, ImgRender, grid, tapLocation, gauge, multiDatePicker, text
+}
 
 struct Content: Identifiable, Hashable{
     let id = UUID()
-    let name: String
+    let name: ItemType
     let img:String
     
     func hash(into hasher: inout Hasher) {
@@ -18,15 +21,15 @@ struct Content: Identifiable, Hashable{
     }
     
     static let loadedItems:[Content] = [
-        .init(name: "Chart", img: "chart.bar.xaxis"),
-        .init(name: "Sheet", img: "doc.plaintext"),
-        .init(name: "Share Link", img: "link"),
-        .init(name: "Image Renderer", img: "photo"),
-        .init(name: "Grid", img: "rectangle.grid.2x2"),
-        .init(name: "Tap location view", img: "hand.point.up.left"),
-        .init(name: "Gauge", img: "gauge"),
-        .init(name: "MultiDatePicker", img:  "calendar"),
-        .init(name: "Text", img: "text.alignleft")
+        .init(name: .chart, img: "chart.bar.xaxis"),
+        .init(name: .sheet, img: "doc.plaintext"),
+        .init(name: .shareLink, img: "link"),
+        .init(name: .ImgRender, img: "photo"),
+        .init(name: .grid, img: "rectangle.grid.2x2"),
+        .init(name: .tapLocation, img: "hand.point.up.left"),
+        .init(name: .gauge, img: "gauge"),
+        .init(name: .multiDatePicker, img:  "calendar"),
+        .init(name: .text, img: "text.alignleft")
     ]
 }
 
@@ -39,7 +42,7 @@ struct MainView: View {
                     HStack{
                         Image(systemName: functionality.img)
                             .renderingMode(.original)
-                        Text(functionality.name)
+                        Text("\(functionality.name.rawValue)")
                     }
                 }
             }
@@ -50,28 +53,26 @@ struct MainView: View {
         }
     }
     
-    func selectFunctionality(name:String) -> some View {
+    func selectFunctionality(name:ItemType) -> some View {
         switch name {
-        case "Chart":
+        case .chart:
             return AnyView(ChartsView())
-        case "Sheet":
+        case .sheet:
             return AnyView(SheetView())
-        case "Share Link":
+        case .shareLink:
             return AnyView(ShareLinkView())
-        case "Image Renderer":
+        case .ImgRender:
             return AnyView(ImageRendererView())
-        case "Grid":
+        case .grid:
             return AnyView(GridView())
-        case "Tap location view":
+        case .tapLocation:
             return AnyView(TapLocationView())
-        case "Gauge":
+        case .gauge:
             return AnyView(GaugeView())
-        case "MultiDatePicker":
+        case .multiDatePicker:
             return AnyView(MultiDatePickerView())
-        case "Text":
+        case .text:
             return AnyView(TextView())
-        default:
-            return AnyView(UnderConstruction())
         }
     }
 }

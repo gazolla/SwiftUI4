@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SheetView: View {
     
-    @State var showView: Bool = false
+    @State var showView: Bool = true
     
     var body: some View {
         Button("Show sheet"){
